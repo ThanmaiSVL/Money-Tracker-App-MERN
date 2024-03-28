@@ -1,0 +1,84 @@
+body{
+    background-color: #f1ffd9;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+h1,h2{
+    text-align: center;
+    color: #fc03b1;
+}
+.input-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.input-section label{
+    font-weight: bold;
+    margin-right: 10px;
+}
+.input-section input{
+    padding: 5px;
+    margin-right: 10px;
+}
+.input-section button{
+    padding: 5px 10px;
+    background-color: #eb55bf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.expenses-list{
+    margin: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color: #8bdbf5;
+    color: #eb55bf;
+}
+tfoot td{
+    font-weight: bold;
+}
+.delete-btn{
+    padding: 5px 10px;
+    background-color: #eb55bf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    body {
+      margin: 0;
+      padding: 15px;
+    }
+  
+    .input-section {
+      flex-wrap: wrap;
+    }
+  
+    .input-section label,
+    .input-section input,
+    .input-section button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    table {
+      font-size: 14px;
+    }
+  }
+  
